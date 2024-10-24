@@ -1,0 +1,34 @@
+#title {
+    font-size: 24px;
+    fill: #7C3AED; /* Pastel Violet */
+    text-anchor: middle; /* Align text to the center */
+}
+
+body {
+    background-color:  #D3E8D3; /* Light pastel green */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.bar {
+    fill: #A78BFA; /* Soft pastel violet for bars */
+}
+
+.bar:hover {
+    fill: #7C3AED; /* Darker violet on hover */
+}
+
+#tooltip {
+    background-color: #E0F5E6;
+    color: #333;
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+svg {
+    background-color: #F5F3FF; /* Light violet background for the chart */
+}
